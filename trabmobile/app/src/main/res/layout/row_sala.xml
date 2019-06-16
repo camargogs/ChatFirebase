@@ -1,0 +1,45 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/layout_sala">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/image_sala"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/item_sala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@+id/image"
+            android:text="Canada"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_sala"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:text=""
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>-->
+
+</android.support.v7.widget.CardView>

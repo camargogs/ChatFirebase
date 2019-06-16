@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FirebaseChat</string>
+
+    <string name="testeeee">Teste</string>
+
+    <!-- Login -->
+    <string name="prompt_username">Usuario</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="error_empty">Por favor, coloque seu usuario!</string>
+    <string name="error_password">Por favor, coloque sua senha!</string>
+
+    <!-- Chat -->
+    <string name="chat_input">Coloque uma mensagem!</string>
+    <string name="chat_init_error">Falha ao conectar com o banco de dados!</string>
+
+    <!-- Menu -->
+    <string name="perfil">Perfil</string>
+    <string name="chat_logout">Sair</string>
+    <string name="voltar">Voltar</string>
+
+    <!-- Criar conta -->
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_email">Email</string>
+    <string name="action_create">Criar Conta</string>
+    <string name="error_create_account">Falha ao criar conta!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Olá fragmento limpo</string>
+    <string name="nome">Nome</string>
+    <string name="titulo_usuario">Informações do Usuário</string>
+    <string name="title_activity_mapa">Map</string>
+</resources>
